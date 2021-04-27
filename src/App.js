@@ -1,10 +1,21 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import NavMenu from './components/NavMenu';
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
     <>
-      <h1>Welcome to react portfolio Project</h1>
-      <h3>-Shaif Arfan</h3>
+    <NavMenu />
+      <Router>
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
+      </Router>
     </>
   );
 }
