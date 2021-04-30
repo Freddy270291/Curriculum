@@ -108,7 +108,7 @@ const NavMenuStyles = styled.div`
       outline: none;
     }
     .active {
-      color: var(--white);
+      color: var(--fede-color) !important;
     }
   }
   .mobile-menu-icon {
