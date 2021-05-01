@@ -98,6 +98,9 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: -18rem;
+    Ptext {
+      color: var(--fede-color) !important;
+    }
   }
   .hero__social,
   .hero__scrollDown {

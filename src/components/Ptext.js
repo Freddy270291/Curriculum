@@ -10,6 +10,7 @@ export default function Ptext({ children }) {
 }
 
 const PStyle = styled.div`
+  color: var(--fede-color) !important;
   max-width: 500px;
   margin: 0 auto;
   font-size: 1.8rem;
